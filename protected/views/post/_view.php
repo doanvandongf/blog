@@ -18,6 +18,6 @@
 		<br/>
 		<?php echo CHtml::link('Permalink', $data->url); ?> |
 		<?php echo CHtml::link("Comments ({$data->commentCount})",$data->url.'#comments'); ?> |
-		<span style="color: red">Last updated on <?php echo date('F j, Y',$data->update_time); ?></span>
+		Last updated on <?php echo date('F j, Y',$data->update_time); ?>
 	</div>
 </div>
