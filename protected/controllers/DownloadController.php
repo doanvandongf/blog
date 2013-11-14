@@ -11,4 +11,14 @@ class DownloadController {
     {
         $this->render('index');
     }
+
+    public function  actionList()
+    {
+        $this->render('index');
+    }
+
+    public function  actionView()
+    {
+        $this->render('index');
+    }
 } 
